@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+	<h:head>
+		<title>GRANT UNIVERSIITE</title>
+	</h:head>
+	<h:body>
+		<h1>MY FIRST JSF PAGE...</h1>
+		<br/>
+		<h:form>
+        contoh textbox: <h:inputText id="contohtextbox" 
+                                      required="true"
+                                      requiredMessage="haris di isi"
+                                      value="abc"/>
+		<p/>
+		contoh textarea: <h:inputTextarea/>
+		<p/>
+		contoh inputsecret: <h:inputSecret/>
+		<p/>
+		contoh output: <h:outputLabel value="text biasa"/>
+		<p/>
+		contoh outputlink: <h:outputLink value="http://google.com">
+			open link
+		</h:outputLink>
+		<p/>
+		contoh gambar: <h:graphicImage value="img/ceo.jpg" width="10%"></h:graphicImage>
+		<p/>
+		contoh button: <h:commandButton value="tombol" action="pagelain"> </h:commandButton>
+		<p/>
+		contoh button2: <h:commandLink value="tombol2" action="pagelain"></h:commandLink>
+		<p/>
+		contoh checkbox: <h:selectBooleanCheckbox> accept term and condition </h:selectBooleanCheckbox>
+		<p/>
+		contoh listbox: <h:selectOneListbox>
+			<f:selectItem itemLabel="audi a6" itemValue="1"></f:selectItem>
+			<f:selectItem itemLabel="aventador" itemValue="2"></f:selectItem>
+			<f:selectItem itemLabel="kijang" itemValue="3"></f:selectItem>
+		</h:selectOneListbox>
+		<p/>
+		contoh combobox: <h:selectOneMenu>
+			<f:selectItem itemLabel="audi a6" itemValue="1"></f:selectItem>
+			<f:selectItem itemLabel="aventador" itemValue="2"></f:selectItem>
+			<f:selectItem itemLabel="kijang" itemValue="3"></f:selectItem>
+		</h:selectOneMenu>
+		<p/>
+		contoh radiobutton: <h:selectOneRadio>
+			<f:selectItem itemLabel="audi a6" itemValue="1"></f:selectItem>
+			<f:selectItem itemLabel="aventador" itemValue="2"></f:selectItem>
+			<f:selectItem itemLabel="kijang" itemValue="3"></f:selectItem>
+			</h:selectOneRadio>
+                <h:commandButton action="submit" value="submit"/>
+		</h:form>
+	</h:body>
+</html>

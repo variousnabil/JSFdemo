@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+	<h:head></h:head>
+	<h:body>
+		<h:form>
+		First name: <h:inputText id="first" value="#{student.firstName}"></h:inputText>
+		<p/>
+		Last name: <h:inputText id="last" value="#{student.lastName}"></h:inputText>
+		<p/>
+		<h:commandButton value="Submit" action="student-response"></h:commandButton>
+		</h:form>
+	</h:body>
+</html>
